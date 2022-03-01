@@ -1,0 +1,16 @@
+{
+  "name": "ursaa",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./src/main.js"
+  },
+  "keywords": [],
+  "repository": "https://github.com/ursaa/ursaa",
+  "author": "zhaojj11 <zhaojunjie@pyjava.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.1.0"
+  }
+}
