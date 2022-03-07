@@ -1,19 +1,21 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2019",
-        "noImplicitAny": false, // 在表达式和声明上有隐含的'any'类型时报错, 最好之后改成true
+        "module": "esnext",
+        "target": "esnext",
         "sourceMap": true,
-        "outDir": "./dist", // 输出目录
-        "baseUrl": ".",
-        "allowJs": true,
-        "paths": {
-            "*": [
-                "node_modules/*"
-            ]
-        }
+        "moduleResolution": "Node",
+        "skipLibCheck": true,
+        "strict": true,
+        "isolatedModules": true,
+        "types": [
+            "vite/client",
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types",
+        ],
+        "lib": [
+            "ESNext"
+        ]
     },
-    "include": [
-        "src/**/*"
-    ]
 }

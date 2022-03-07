@@ -1,2 +1,5 @@
 /build
 /out
+types/env.d.ts
+node_modules/**
+**/dist/**

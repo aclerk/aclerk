@@ -1,6 +1,8 @@
 module.exports = {
   env: {
-    node: true
+    "es2021": true,
+    "node": true,
+    "browser": false
   },
   extends: [
     'plugin:vue/vue3-essential',
