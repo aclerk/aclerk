@@ -37,9 +37,10 @@
   "author": "zhaojj11 <zhaojunjie@pyjava.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^17.0.21",
     "@types/electron-devtools-installer": "^2.2.0",
+    "@types/node": "^17.0.21",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^5.14.0",
     "@vitejs/plugin-vue": "^1.4.0",
     "cross-env": "^7.0.3",
     "electron": "^13.1.9",
@@ -56,6 +57,7 @@
   },
   "dependencies": {
     "electron-updater": "^4.4.4",
+    "eslint": "^7.32.0",
     "vue": "^3.2.2",
     "vue-router": "^4.0.11"
   }
