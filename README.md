@@ -8,8 +8,22 @@ ursaa是一个个人提高的应用程序,专注于记录个人的知识库,日�
 
 ## ✅ Todo List
 
-- [ ] 知识库note
-- [ ] 日程安排plan
-- [ ] 账本account
-- [ ] 可插拔组件化功能
-- [ ] 支持webdav/github存储
+### ursaa 1.0.0
+
+- [ ] local storage 
+- [ ] note
+  - [ ] parse and show markdown
+  - [ ] parse and show math
+  - [ ] parse and show mermaid
+- [ ] plan
+  - [ ] OKR(Objectives and Key Results) for year/quarter/month/day
+  - [ ] GTD
+    - [ ] todo
+    - [ ] scheme
+- [ ] bookkeeping
+  - [ ] ledger
+  - [ ] borrow
+  - [ ] record
+  - [ ] chart
+- [ ] plugin
+- [ ] support webdav or github
