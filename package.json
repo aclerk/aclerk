@@ -48,6 +48,7 @@
     "electron-devtools-installer": "^3.2.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^7.16.0",
+    "less": "^4.1.2",
     "lint-staged": "^11.1.2",
     "simple-git-hooks": "^2.5.1",
     "spectron": "^15.0.0",
@@ -56,9 +57,11 @@
     "vue-tsc": "^0.2.2"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^1.1.1",
     "electron-updater": "^4.4.4",
+    "element-plus": "^2.1.0",
     "eslint": "^7.32.0",
-    "vue": "^3.2.2",
+    "vue": "^3.2.0",
     "vue-router": "^4.0.11"
   }
 }
