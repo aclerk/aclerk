@@ -10,7 +10,7 @@ const routes = [
   { path: '/note', name: 'note', component: note },
   { path: '/bookkeeping', name: 'bookkeeping', component: bookkeeping },
   { path: '/plan', name: 'plan', component: plan },
-  { path: '/setting', name: 'setting', component: setting }
+  { path: '/setting', name: 'setting', component: setting },
 ];
 
 export default createRouter({

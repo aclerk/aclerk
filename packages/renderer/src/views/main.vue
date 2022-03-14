@@ -17,9 +17,9 @@ export default defineComponent({
       routeName,
       clickFunc() {
         ElMessage('只是一条消息提示');
-      }
+      },
     };
-  }
+  },
 });
 </script>
 

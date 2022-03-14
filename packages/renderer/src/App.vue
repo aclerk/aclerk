@@ -1,37 +1,70 @@
 <template>
   <el-container style="height: 100%">
-    <el-aside width="57px" style="background-color: #333333">
-      <router-link to="/" class="ursaa-router">
+    <el-aside
+      width="57px"
+      style="background-color: #333333"
+    >
+      <router-link
+        to="/"
+        class="ursaa-router"
+      >
         <div class="ursaa-menu">
-          <el-icon :size="36" color="#858585">
+          <el-icon
+            :size="36"
+            color="#858585"
+          >
             <house />
           </el-icon>
         </div>
       </router-link>
-      <router-link to="/note" class="ursaa-router">
+      <router-link
+        to="/note"
+        class="ursaa-router"
+      >
         <div class="ursaa-menu">
-          <el-icon :size="36" color="#858585">
+          <el-icon
+            :size="36"
+            color="#858585"
+          >
             <notebook />
           </el-icon>
         </div>
       </router-link>
-      <router-link to="/bookkeeping" class="ursaa-router">
+      <router-link
+        to="/bookkeeping"
+        class="ursaa-router"
+      >
         <div class="ursaa-menu">
-          <el-icon :size="36" color="#858585">
+          <el-icon
+            :size="36"
+            color="#858585"
+          >
             <wallet-filled />
           </el-icon>
         </div>
       </router-link>
-      <router-link to="/plan" class="ursaa-router">
+      <router-link
+        to="/plan"
+        class="ursaa-router"
+      >
         <div class="ursaa-menu">
-          <el-icon :size="36" color="#858585">
+          <el-icon
+            :size="36"
+            color="#858585"
+          >
             <management />
           </el-icon>
         </div>
       </router-link>
-      <router-link to="/setting" class="ursaa-router">
+      <router-link
+        to="/setting"
+        class="ursaa-router"
+      >
         <div class="ursaa-menu">
-          <el-icon :size="36" color="#858585">
+          <el-icon
+            :size="36"
+            color="#858585"
+          >
             <setting />
           </el-icon>
         </div>
@@ -50,7 +83,7 @@
 <script lang="ts">
 
 export default{
-  name: 'App'
+  name: 'App',
 };
 </script>
 
