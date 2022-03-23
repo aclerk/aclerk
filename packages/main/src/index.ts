@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import {app, BrowserWindow, nativeTheme} from 'electron';
 import { join } from 'path';
 import { URL } from 'url';
 
@@ -53,6 +53,8 @@ const createWindow = async () => {
         mainWindow?.show();
 
         if (env.MODE === 'development') {
+            // todo 配置electron主题，后期考虑放入setting
+            nativeTheme.themeSource = 'light';
             mainWindow?.webContents.openDevTools();
         }
     });
