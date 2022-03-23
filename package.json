@@ -1,5 +1,5 @@
 {
-  "name": "ursaa",
+  "name": "aclerk",
   "version": "0.1.0",
   "description": "",
   "engines": {
@@ -33,7 +33,7 @@
     ]
   },
   "keywords": [],
-  "repository": "https://github.com/ursaa/ursaa",
+  "repository": "https://github.com/aclerk/aclerk",
   "author": "zhaojj11 <zhaojunjie@pyjava.com>",
   "license": "MIT",
   "devDependencies": {

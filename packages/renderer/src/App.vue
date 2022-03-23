@@ -6,9 +6,9 @@
     >
       <router-link
         to="/"
-        class="ursaa-router"
+        class="aclerk-router"
       >
-        <div class="ursaa-menu">
+        <div class="aclerk-menu">
           <el-icon
             :size="36"
             color="#858585"
@@ -19,9 +19,9 @@
       </router-link>
       <router-link
         to="/note"
-        class="ursaa-router"
+        class="aclerk-router"
       >
-        <div class="ursaa-menu">
+        <div class="aclerk-menu">
           <el-icon
             :size="36"
             color="#858585"
@@ -32,9 +32,9 @@
       </router-link>
       <router-link
         to="/bookkeeping"
-        class="ursaa-router"
+        class="aclerk-router"
       >
-        <div class="ursaa-menu">
+        <div class="aclerk-menu">
           <el-icon
             :size="36"
             color="#858585"
@@ -45,9 +45,9 @@
       </router-link>
       <router-link
         to="/plan"
-        class="ursaa-router"
+        class="aclerk-router"
       >
-        <div class="ursaa-menu">
+        <div class="aclerk-menu">
           <el-icon
             :size="36"
             color="#858585"
@@ -58,9 +58,9 @@
       </router-link>
       <router-link
         to="/setting"
-        class="ursaa-router"
+        class="aclerk-router"
       >
-        <div class="ursaa-menu">
+        <div class="aclerk-menu">
           <el-icon
             :size="36"
             color="#858585"
@@ -70,7 +70,7 @@
         </div>
       </router-link>
     </el-aside>
-    <el-main class="ursaa-container">
+    <el-main class="aclerk-container">
       <router-view v-slot="{ Component }">
         <keep-alive>
           <component :is="Component" />
@@ -88,17 +88,17 @@ export default{
 </script>
 
 <style lang="less">
-.ursaa-menu {
+.aclerk-menu {
   height: 56px;
   width: 56px;
   display: -webkit-flex;
   justify-content: center;
   align-items: center;
 }
-.ursaa-router {
+.aclerk-router {
   color: #858585;
 }
-.ursaa-container {
+.aclerk-container {
   padding: 0 !important;
 }
 .router-link-active .el-icon{

@@ -1,14 +1,14 @@
-# ursaa
+# aclerk
 
 ## 📝 项目介绍
 
-ursaa是一个个人提高的应用程序,专注于记录个人的知识库,日程安排,账本.
+aclerk是一个个人提高的应用程序,专注于记录个人的知识库,日程安排,账本.
 
 (原先准备使用JavaFX，后来因为部分功能难以实现破产了)
 
 ## ✅ Todo List
 
-### ursaa 1.0.0
+### aclerk 1.0.0
 
 - [ ] local storage 
 - [ ] note
