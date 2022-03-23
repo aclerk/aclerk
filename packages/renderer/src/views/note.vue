@@ -1,5 +1,5 @@
 <template>
-  <div id="ursaa-note">
+  <div id="aclerk-note">
     <el-row style="height: 100%">
       <el-col
         :span="6"
@@ -34,7 +34,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-#ursaa-note{
+#aclerk-note{
   height: 100%;
 }
 </style>

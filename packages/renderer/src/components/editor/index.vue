@@ -1,13 +1,13 @@
 <template>
-  <el-row id="ursaa-editor">
+  <el-row id="aclerk-editor">
     <el-col
-      id="ursaa-editor-text"
+      id="aclerk-editor-text"
       :span="12"
     >
       <textarea v-model="context" />
     </el-col>
     <el-col
-      id="ursaa-editor-markdown"
+      id="aclerk-editor-markdown"
       :span="12"
       v-html="htmlContext"
     />
