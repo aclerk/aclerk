@@ -17,15 +17,22 @@
 <script lang="ts">
 import {defineComponent, ref, watch} from 'vue';
 import {md2html} from '/@/utils/mdParser';
+import mermaid from 'mermaid';
 
 export default defineComponent({
   name: 'Editor',
   setup() {
+    mermaid.initialize({
+      flowchart: {curve: 'linear'},
+      gantt: {axisFormat: '%Y/%m/%d'},
+    });
+
     let context = ref<string>('');
     let htmlContext = ref<string>('');
 
     watch([context], async () => {
       htmlContext.value = await md2html(context.value);
+      mermaid.contentLoaded();
     });
 
     // initialize
@@ -36,6 +43,13 @@ export default defineComponent({
 #### title4
 ##### title5
 ###### title6
+\`\`\`mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+\`\`\`
 `;
 
     return {
